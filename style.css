@@ -1,0 +1,339 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color:rgb(238, 233, 227)
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 h1{
+    font-size: 30px;
+    padding-top: 90px;
+    margin-top: 85px;
+    line-height: 40px;
+    margin: 25px 0;
+    color:rgba(255, 255, 255, 0.89);
+}
+.col-2 p{
+    
+    color: beige;
+    
+}
+.col-2 h2{
+    font-size: 30px;
+    padding-top: 90px;
+    margin-top: 85px;
+    line-height: 40px;
+    margin: 25px 0;
+    color:rgba(10, 2, 2, 0.89);
+}
+
+.btm{
+    display: inline-block;
+    background:rgb(26, 173, 173);
+    color: rgb(84, 17, 128);
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.8s;
+}
+.btm:hover{
+    background:rgb(247, 231, 231)
+}
+.header .row{
+    margin-top: 60px;
+}
+.category{
+    margin: 70px 0;
+
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+
+}
+.col-3 img{
+    width: 100%;
+
+
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+.small{
+    color: rgb(6, 23, 44);
+    text-align: center;
+max-width: 1080px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding:10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+}
+.col-4:hover{
+transform:translateY(-7px);
+}
+.review{
+    padding-top: 10px;
+    
+}
+.review .col-3{
+    text-align: center;
+    padding: 40px 20px;
+}
+.partner{
+    margin: 50px auto;
+}
+.col-5{
+    width: 160px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+
+}
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+.footer{
+    background:black;
+    color: #8a8a8a;
+    font-size: 13px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: rgb(231, 243, 243);
+}
+.footer h3{
+    color: cornsilk;
+    margin-bottom: 15px;
+}
+.footer-col1,.footer-col2,.footer-col3,.footer-col4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col1{
+    flex-basis: 30%;
+}
+.footer-col2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col3,.footer-col4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.applogo{
+    margin-top: 20px;
+}
+.applogo img{
+    width: 140px;
+}
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+.select{
+    border: 2px solid rgb(121, 31, 173);
+}
+.single-pro{
+    margin-top: 80px;
+}
+.single-pro .col-2 img{
+    padding: 0;
+}
+.single-pro .col-2{
+    padding: 20px;
+}
+.single-pro h4{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold
+    ;
+}
+.single-pro select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.single-pro input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+.cart-page{
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    color: rgb(218, 35, 178);
+    font-weight: normal;
+}
+td{
+    padding: 10px 5px;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td a{
+    color: brown;
+    font-size: 12px;
+}
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.total-price{
+ justify-content: flex-end;
+    display: flex;
+}
+.total-price table{
+    border-top: 3px solid rgb(163, 35, 110);
+    width: 100%;
+    max-width: 350px;
+}
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+.account-page{
+    padding: 50px 0;
+
+}
+.form-container{
+    background: rosybrown;
+    width: 300px;
+     height: 400px;
+     position: relative;
+     text-align: center;
+     padding: 20px 0;
+     margin:auto;
+     box-shadow: 0 0 20px rgb(53, 11, 204);
+     overflow: hidden;
+}
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: rgb(91, 69, 94);
+    cursor: pointer;
+    width: 100px;
+    display:inline-block;
+}
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position:absolute;
+    top: 130px;
+    transition:  transform 1s;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid gray;
+}
+form .btm{
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+#Loginform{
+    left: -300px;
+}
+#Reg{
+    left: 0;
+}
+form a{
+    font-size: 13px;
+}
+#indicator{
+    width: 100px;
+    border: none;
+    background: #b9230f;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+    transition:  transform 1s;
+}

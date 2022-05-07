@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>yadavstore-cart</title>
+</head>
+<style>
+    body{
+         background-image: url("accn.jpg");
+         background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 800px;
+    }
+</style>
+<body>
+    <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                   <a href="index.html">  <img src="log2.png" alt="" width="125px"></a> 
+            </div>
+            <nav>
+                <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="">About us</a></li>
+    <li><a href="product.html">Products</a></li>
+    <li><a href="">Contact us</a></li>
+    <li><a href="account.html">Join us</a></li>
+                </ul>
+            </nav>
+          <a href="cart.html"> <img src="cart (2).png" width="30px" height="30px"></a> 
+        </div>
+       
+    </div>
+    </div>
+   
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="">
+            </div>
+            <div class="col-2">
+                <div class="form-container">
+                    <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="register()">Register</span>
+                    <hr id="indicator">
+                    </div>
+                    <form id="Loginform">
+                        <input type="text" placeholder="username">
+                        <input type="password"placeholder="password">
+                        <button type="submit" class="btm">login</button>
+                    <a href="">Forgot password</a>
+                    </form>
+
+                    <form id="Reg">
+                        <input type="text" placeholder="username">
+                        <input type="password"placeholder="password">
+                        <input type="email" placeholder="email">
+                        <button type="submit" class="btm">Register</button>
+                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <!-- footer -->
+  <div class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="footer-col1">
+                  <h3>Download our app</h3>
+                  <p>Download our app on your android and ios mobile phone</p>
+                  <div class="applogo">
+                      <img src="play-store.png">
+                      <img src="app-store.png" >
+              </div>
+              </div>
+              <div class="footer-col2">
+                  <img src="log2.png" width="100" height="89">
+                  <p>Ward no-3,Bahuara,Vaishali,Bihar-844502,INDIA</p>
+              </div>
+              <div class="footer-col3">
+                  <h3>Important links</h3>
+                  <ul>
+                      <li>carrer</li>
+                      <li>blog</li>
+                      <li>policy</li>
+                      <li>partner
+                      </li>
+                  </ul>
+              </div>
+              <div class="footer-col4">
+                  <h3>connect us</h3>
+                  <ul>
+                      <li>Facebook</li>
+                      <li>instagram</li>
+                      <li>Twitter</li>
+                      <li>github</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+
+  <script>
+      var Loginform = document.getElementById("Loginform");
+      var Reg = document.getElementById("Reg");
+      var indicator = document.getElementById("indicator");
+
+      function register(){
+          Reg.style.transform="translateX(0px)";
+          Loginform.style.transform="translateX(0px)";
+          indicator.style.transform="translateX(100px)";
+      }
+      function login(){
+          Reg.style.transform="translateX(300px)";
+          Loginform.style.transform="translateX(300px)";
+          indicator.style.transform="translateX(0px)";
+      }
+  </script>
+  
+</body>
+</html>
